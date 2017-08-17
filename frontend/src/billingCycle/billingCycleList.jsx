@@ -4,9 +4,9 @@ import { connect } from 'react-redux'
 import { getList, showUpdate, showDelete } from './billingCycleActions'
 
 class BillingCycleList extends Component {
-    
-    componentWillMount(){
-        this.props.getList()        
+
+    componentWillMount() {
+        this.props.getList()
     }
 
     renderRows() {
@@ -28,7 +28,7 @@ class BillingCycleList extends Component {
         ))
     }
 
-    render(){
+    render() {
         return (
             <div>
                 <table className='table'>
